@@ -27,21 +27,11 @@ Comece seus projetos direto no html e nunca digite `<script src>` nem `<link hre
 
 2. `npm install `
 
-3. `bower install` suas dependências ou jogue arquivos na `/lib`
+3. `bower install`. Jogue arquivos .css adiconais na `/lib`
 
 4. No terminal, rode `gulp`
 
 5. Faça algo legal no index.html ***e salve***
-
-Vídeos Passo a Passo de como começar:
-
-
-[Usando Giovanna com Bootstrap](https://www.youtube.com/watch?v=HuFE9GzRMGs)
-
-
-[Usando Giovanna com Semantic-Ui](https://www.youtube.com/watch?v=9RqMNC8enE8)
-
-![ScreenShot](https://i.ytimg.com/vi_webp/9RqMNC8enE8/maxresdefault.webp)
 
 
 > Atenção 3: Não esqueça de editar as informações do seu projeto no `package.json` e `bower.json`
@@ -50,6 +40,8 @@ Vídeos Passo a Passo de como começar:
 # Estrutura de diretórios esperada
 
 A pasta `./src` é a única que será editada, contendo o código-fonte do projeto.
+
+A pasta `/src/stylus/` contém os arquivos .styl. Apenas o main.styl é processado portanto ao criar outros arquivos é necessário declarar com `@import` no main.styl
 
 Na `./src/libs/` inclua os js, css, imagens e etc que não podem ser inseridos pelo bower. ``` ***Exemplo:*** o semantic-ui , se instalado pelo bower carrega apenas o semantic.min.js e semantic.min.css, deixando de lado importantes arquivos de fontes/icons e tema. Neste caso, insira os arquivos (que faltam, ou todos mesmo) na `/lib` ``´
 
