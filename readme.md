@@ -1,4 +1,4 @@
-# Giovanna - Simples starter com auto-injeção, GulpJs e Stylus (opcional)
+# Giovanna com Bootstrap 3.3.5 em Stylus! - Simples starter com auto-injeção, GulpJs e Stylus
 
 Rode a tarefa `gulp` e comece a trabalhar!
 
@@ -8,7 +8,9 @@ Comece seus projetos direto no html e nunca digite `<script src>` nem `<link hre
 
 - Auto-injeção de dependências ao instalar um pacote pelo bower, ou manualmente na pasta `/lib`
 
-- Use Stylus ou apenas CSS
+- Bootstrap com Stylus,
+
+- jQuery via Bower
 
 - Include de Partials e mini-template engine com gulp-file-includes `@@include('partials/arquivo.html')`
 
@@ -25,7 +27,7 @@ Comece seus projetos direto no html e nunca digite `<script src>` nem `<link hre
 
 2. `npm install `
 
-3. `bower install --save jquery` suas dependências ou jogue arquivos na `/lib`
+3. `bower install` suas dependências ou jogue arquivos na `/lib`
 
 4. No terminal, rode `gulp`
 
